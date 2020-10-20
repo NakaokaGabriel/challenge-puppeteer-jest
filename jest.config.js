@@ -1,3 +1,8 @@
+/*
+ * For a detailed explanation regarding each configuration property, visit:
+ * https://jestjs.io/docs/en/configuration.html
+ */
+
 module.exports = {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
@@ -141,7 +146,10 @@ module.exports = {
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
-  testMatch: './src/__tests__/*.spec.ts',
+  // testMatch: [
+  //   "**/__tests__/**/*.[jt]s?(x)",
+  //   "**/?(*.)+(spec|test).[tj]s?(x)"
+  // ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
